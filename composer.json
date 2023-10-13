@@ -1,0 +1,19 @@
+{
+  "name": "alexrojer31/filesystem",
+  "description": "Классы для работы с файловой системой",
+  "homepage": "https://alexrojer31.ru",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.5.20"
+  },
+  "autoload": {
+    "psr-4": {
+      "Filesystem\\": "src/"
+    }
+  },
+  "scripts": {
+    "test:all": "./vendor/bin/phpunit --configuration phpunit.xml --testsuite All"
+  }
+}
